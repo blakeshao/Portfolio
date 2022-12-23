@@ -226,7 +226,6 @@ a{
     padding-bottom: 3rem;
     
 
-    filter: blur(5px) ;
   }
 
   .pic-home{
@@ -280,8 +279,8 @@ a{
 }
 
 .container{
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 @media (max-width: 769px) {
