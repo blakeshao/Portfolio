@@ -279,8 +279,8 @@ a{
 }
 
 .container{
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media (max-width: 769px) {
