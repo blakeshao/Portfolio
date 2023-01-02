@@ -288,7 +288,7 @@ a{
   padding-right: 12%;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 400px) {
   .container{
     padding-left: 5%;
   padding-right: 5%;
