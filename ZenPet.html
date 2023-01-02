@@ -18,11 +18,11 @@
     <title>Tianyi Shao - Zen Pet</title>
     
 </head>
-<body style = "background-color: black;">
+<body style="background-color: black;">
     
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid px-5">
             <a href="index.html" class="navbar-brand">
                 <img src="Asset/Logo.gif" alt="Logo" class="logo">
@@ -54,18 +54,41 @@
           
     </nav>
 
-    <div class="container">
-        <div class="text-div">
+
+
+
+
+<div style = "background-color: black;" class="overall">
+
+   
+
+    <div class="container" > 
+
+       
+       
+    
+
+        
+        <div class="text-div" id="content">
+            
             <h1 class="content-title">ZenPet</h1>
             <h2 class="content-subtitle zPet">Virtual Pet Device That Helps You Live A Refective and Intentional Life</h2>
         </div>
+
+      
 
         <div class="content">
             <h2 class="section-title zPet">
                 Introduction and Context
             </h2>
+            
+            
             <p>	The idea of ZenPet is conceived in response to the fast-paced, goal-driven, and comparison-based zeitgeist of the information age. Many people seem to always be on the move for the next best thing in life, leaving no room for retrospection and reflection. Social media platforms only exacerbate this issue by fostering comparison and superficiality. With ZenPet, I attempt to reorient people’s energy in the information from outward to inward, turning redundant outward expression into much-needed self-reflection, turning soul-consuming comparison into nourishing care.
             </p>
+
+            <div class="d-flex justify-content-center" style="background-color: black;">
+                <img src="Asset/ZPet/Logo.gif" alt="ZPet Logo" class="zPet-logo">
+            </div>
 
             <div class="row px-5">
                 <div class="col">
@@ -123,6 +146,13 @@
                 Product Informtion
             </h2>
             <p class="text-center py-5">"ZenPet is a virtual companion that helps people live an intentional and reflective life."</p>
+
+            <div class="d-flex justify-content-center">
+                <img src="Asset/ZPet/Product.jpg" alt="ZPet Product" class="zPet-pic">
+            </div>
+        
+
+            
             <p>
                 ZenPetZero is the first iteration of product development by our team. It encapsulates the product’s core functionalities and design philosophy. ZenPetZero has two main components: 
                 <ol class="px-5">
@@ -133,6 +163,9 @@
                 
             </p>
             <h3 class="zPet">Product Video</h3>
+                <div class="d-flex justify-content-center p-3">
+                    <iframe width="1000" height="600" src="https://www.youtube.com/embed/q4WQ5IbortM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             <h3 class="zPet">Game Mechanism</h3>
             <p>The main mechanism of the game lies in the users’ interactions with a virtual pet. Through caring for the pet and developing a bond with the pet, the users perform reflection, achieve personal growth, and receive intimacy in return.
             </p>
@@ -193,9 +226,20 @@
                     In addition, we want to develop ergonomic design features that makes the device interesting and alive on a tactile level.
                 </p>
 
-                
-                <div class="d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="Asset/ZPet/Product_Front.jpg" alt="Product Front" class="zPet-pic">
+                    </div>
+                    <div class="col-sm">
+                        <img src="Asset/ZPet/Product_Back.jpg" alt="Product Back" class="zPet-pic">
+                    </div>
+                </div>
 
+                
+
+               <h4>Design Considerations</h4> 
+                <div class="d-flex justify-content-center">
+                
                     <ol>
                         <li class="py-2">Minimalist Base that resembles the virtual pet’s feet</li>
                         <li class="py-2">Coiled HDMI cord that resembles a tiny antenna </li>
@@ -228,21 +272,30 @@
                 <h3>Interview Insights</h3>
                 <div class="insights px-4">
                     <h4>Theme 1: <span style=" font-size: 1.2rem">Jounraling is hard to maintain</span></h4>
-                    <div class="row py-3">
-                        <div class="col-sm-4"><p>“Though journaling is a great habit, is quite hard to maintain”</p></div>
-                        <div class="col-sm-4"><p>“I feel like I should journal more than I should”</p></div>
-                        <div class="col-sm-4"><p>“I always have this burst of energy to journal but it seems that I can never keep it up.”</p></div>
+                    <div class="row py-3 align-items-start">
+                        <div class="col-sm-4 justify-content-center">
+                            <i class="fa fa-sticky-note py-4" style="font-size:48px;color:white"></i>
+                            <p>“Though journaling is a great habit, is quite hard to maintain”</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fa fa-sticky-note py-4" style="font-size:48px;color:white"></i>
+                            <p>“I feel like I should journal more than I should”</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fa fa-sticky-note py-4" style="font-size:48px;color:white"></i>
+                            <p>“I always have this burst of energy to journal but it seems that I can never keep it up.”</p>
+                        </div>
                     </div>
                     <h4 class="text-center" style="color:white; font-family: Arial, Helvetica, sans-serif; font-size:1.8rem; margin-top: 2rem;">Design Goal #1: Integrate self-reflection organically as an accessible and maintainable habit.
                     </h4>
                 </div>
     
-                <div class="insights px-3"> 
+                <div class="insights px-4"> 
                     <h4>Theme 2: <span style=" font-size: 1.2rem">Journaling as Mental Health First-Aid</span></h4>
-                    <div class="row py-4">
-                        <div class="col-sm-4"><p>“Though journaling is a great habit, is quite hard to maintain”</p></div>
-                        <div class="col-sm-4"><p>“I feel like I should journal more than I should”</p></div>
-                        <div class="col-sm-4"><p>“I always have this burst of energy to journal but it seems that I can never keep it up.”</p></div>
+                    <div class="row py-3 align-items-start">
+                        <div class="col-sm-4"><i class="	fa fa-bell py-4" style="font-size:48px;color:white"></i> <p>“Though journaling is a great habit, is quite hard to maintain”</p></div>
+                        <div class="col-sm-4"><i class="	fa fa-bell py-4" style="font-size:48px;color:white"></i> <p>“I feel like I should journal more than I should”</p></div>
+                        <div class="col-sm-4"><i class="	fa fa-bell py-4" style="font-size:48px;color:white"></i> <p>“I always have this burst of energy to journal but it seems that I can never keep it up.”</p></div>
                     </div>
                     <h4 class="text-center" style="color:white; font-family: Arial, Helvetica, sans-serif; font-size:1.8rem; margin-top: 2rem;">Design Goal #2: Expand the use of self-reflection beyond a stabilizer for extreme emotions. Encourgae users to actively practice refelction to live a better life.
     
@@ -251,10 +304,10 @@
     
                 <div class="insights px-4">
                     <h4>Theme 3: <span style=" font-size: 1.2rem">Journaling is a Chore</span></h4>
-                    <div class="row py-3">
-                        <div class="col-sm-4"><p>“I don’t see myself journaling a lot in the future because it feels so much like a writing assignment, and I've done plenty of those”</p></div>
-                        <div class="col-sm-4"><p>“It’s just a lot of work”</p></div>
-                        <div class="col-sm-4"><p>“I really want to sit down, go deep in my thoughts, and write. But I just don’t have that time”</p></div>
+                    <div class="row py-3 align-items-start">
+                        <div class="col-sm-4"><i class="fa fa-comment py-4" style="font-size:48px;color:white"></i> <p>“I don’t see myself journaling a lot in the future because it feels so much like a writing assignment, and I've done plenty of those”</p></div>
+                        <div class="col-sm-4"><i class="fa fa-comment py-4" style="font-size:48px;color:white"></i> <p>“It’s just a lot of work”</p></div>
+                        <div class="col-sm-4"><i class="fa fa-comment py-4" style="font-size:48px;color:white"></i> <p>“I really want to sit down, go deep in my thoughts, and write. But I just don’t have that time”</p></div>
                     </div>
                     <h4 class="text-center" style="color:white; font-family: Arial, Helvetica, sans-serif; font-size:1.8rem; margin-top: 2rem;">Design Goal #3: Make self-reflection a fun and rewarding experience.
                     </h4>
@@ -263,6 +316,9 @@
 
             <div>
                 <h3>Prior Work #2: Tamagotchi</h3>
+                <div class="d-flex justify-content-center" style="background-color: black;">
+                    <img src="Asset/ZPet/tama.png" alt="Tamagotchi" class="zPet-pic py-5" style="width: 40%;">
+                </div>
                 <p style="font-size: 1.1rem">To achieve the aforementioned goals, the idea was to elevate the reflective aspect of journaling with a fun mechanism or object. Tamagotchi is a digital pet developed by Bandai that took children all over the world by storm in the 1990s. People form deep emotional connections with the device for its cuteness and appeal to human nurture instincts.</p>
                 <p style="font-size: 1.1rem">However, our team reckons that under today’s technological context, <strong>there is a lot of room for innovation for the product to make the emotional connection deeper and more sincere.</strong> </p>
                 <div class="px-3">
@@ -284,8 +340,23 @@
                 Competitors Analysis
             </h2>
 
+            <div class="row" style="margin-top: 2rem;">
+                <div class="col-lg-3 col-sm-6" >
+                    <img src="Asset/ZPet/Daily Bean.webp" alt="Daily Bean" class="zPet-pic rounded"  style="border-radius: 3rem;"> 
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="Asset/ZPet/Fabulous.webp" alt="Fabulous" class="zPet-pic rounded"  style="border-radius: 3rem;">
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="Asset/ZPet/Finch.webp" alt="Finch" class="zPet-pic rounded"  style="border-radius: 3rem;">
+                </div> 
+                <div class="col-lg-3 col-sm-6">
+                    <img src="Asset/ZPet/Forest.webp" alt="Forest" class="zPet-pic rounded"  style="border-radius: 3rem;">
+                </div>
+            </div>
+
             <p style="font-size: 1.1rem" >These are all great apps that capture one or two areas of being fun, building organic habits, encouraging reflection, and forming emotional connections. <strong>However, none of them can achieve four areas altogether.</strong></p>
-            <p style="font-size: 1.1rem"> addition, none of the apps aim to capture the more nuanced human experience and inner world, changing the way people view their experiences. We aim to fill that gap and create a product that captures all of the four aforementioned areas, which is novel in the market and greatly helpful to people’s spiritual lives.</p>
+            <p style="font-size: 1.1rem">In addition, none of the apps aim to capture the more nuanced human experience and inner world, changing the way people view their experiences. We aim to fill that gap and create a product that captures all of the four aforementioned areas, which is novel in the market and greatly helpful to people’s spiritual lives.</p>
 
         </div>
 
@@ -307,12 +378,95 @@
             <h2 class="section-title zPet">
                 Form Factor Design
             </h2>
+            <div>
+                <h3>Conceptualizing</h3>
+            <div>
+                <h4>First Iteration</h4>
+                <div class="row">
+                    <div class="col-sm">
+                        
+                    </div>
 
-            <h3>Conceptualizing</h3>
-            <h4>First Iteration</h4>
-            <h4>Second Iteration</h4>
-            <h3>Case Implementation</h3>
+                    <div class="col-sm py-3">
+                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                        <ul>
+                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
+                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+
+                        </ul>
+                             
+                    </div>
+                    
+                </div>
+            </div>
             
+            <div>
+                <h4>Second Iteration</h4>
+                <p>In the second iteration, we were informed that with the current resources for prototyping, circular screens can be hard to achieve, which means our team has to work around that initial goal.</p>
+                <p> Also, we are attempting to express liveliness, cuteness, and intimacy in a more direct and interactive way. Thus, we decided to branch out and explore different paths the product’s form factor can go.</p>
+                <div class="row">
+                    <h4>Concept 1: Modular Puppet</h4>
+                    <div class="col-sm">
+                        
+                    </div>
+
+                    <div class="col-sm py-3">
+                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                        <ul>
+                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
+                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+
+                        </ul>
+                             
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <h4>Concept 2: Tree of Life</h4>
+                    <div class="col-sm">
+                        
+                    </div>
+
+                    <div class="col-sm py-3">
+                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                        <ul>
+                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
+                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+
+                        </ul>
+                             
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <h4>Concept 3: Immersive Pet</h4>
+                    <div class="col-sm">
+                        
+                    </div>
+
+                    <div class="col-sm py-3">
+                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                        <ul>
+                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
+                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+
+                        </ul>
+                             
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+            
+            <div>
+                <h3>Case Implementation</h3>
+                <p style="font-size: 1.1rem;">After conceptualizing, our team dove into the prototyping process. At this point, <strong>We have to deal with real-life problems and make compromises. </strong> At this stage, we have to find ways to encase a Raspberry Pi 3, a power bank, and a 4-inch touch screen and organize various wires. Thus, we have to think realistically to work with our hardware. Though we made compromises due to time and hardware constraints, we retained our original design goal and philosophy.	</p>
+            </div>
+            
+            
+
 
 
         </div>
@@ -362,6 +516,8 @@
         </div>
 
     </div>
+
+</div> 
       
     
 
