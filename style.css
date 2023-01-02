@@ -296,9 +296,13 @@ a{
   padding-right: 17.5%;
 }
 
+.container-fluid{
+  padding-left: 25%;
+  padding-right: 25%;
+}
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px){
   .container-fluid{
     padding-left: 5%;
   padding-right: 5%;
@@ -308,10 +312,6 @@ a{
 }
 
 
-.container-fluid{
-  padding-left: 20%;
-  padding-right: 20%;
-}
 
 
 
