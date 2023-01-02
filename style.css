@@ -284,18 +284,10 @@ a{
 }
 
 .container{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
 }
 
-@media (max-width: 1200px) {
-  .container{
-    padding-left: 20%;
-  padding-right: 20%;
-
-  }
-  
-}
 
 
 @media (max-width: 1000px) {
