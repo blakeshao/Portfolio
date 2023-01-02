@@ -299,6 +299,23 @@ a{
 
 
 @media (max-width: 1000px) {
+  .container-fluid{
+    padding-left: 5%;
+  padding-right: 5%;
+
+  }
+  
+}
+
+
+.container-fluid{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+
+@media (max-width: 1000px) {
   .container{
     padding-left: 5%;
   padding-right: 5%;
