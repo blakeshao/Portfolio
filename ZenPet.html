@@ -20,7 +20,7 @@
 
     <style>
         model-viewer {
-          width: 50rem;
+          width: 40rem;
           height: 30rem;
           
         }
@@ -376,6 +376,16 @@
             </h2>
 
             <h3>User Flow and Wireframes</h3>
+            <div>
+                <h4>Needs Flow (Eat, Sleep, and Play)</h4>
+                <div class="d-flex justify-content-center">
+                    <img src="Asset/ZPet/Needs Flow.jpg" alt="Needs Flow" class="zPet-pic px-5">
+                </div>
+                <h4>Recap Flow (Left) and Vitals Flow (Right)</h4>
+                <div class="d-flex justify-content-center">
+                    <img src="Asset/ZPet/Vitals and Recap Flow.jpg" alt="Recap Flow and Vitals Flow" class="zPet-pic px-5">
+                </div>
+            </div>
             <h3>Character Design and Animations</h3>
         
             <div class="px-3">
@@ -480,17 +490,19 @@
                 <p> Also, we are attempting to express liveliness, cuteness, and intimacy in a more direct and interactive way. Thus, we decided to branch out and explore different paths the product’s form factor can go.</p>
                 <div class="row align-items-center">
                     <h4>Concept 1: Modular Puppet</h4>
-                    <div class="col-sm">
+                    <div class="col-sm d-flex justify-content-center">
                         <model-viewer alt="Iteration 2 - Modular Puppet" src="Asset/ZPet/Puppet.gltf" camera-controls touch-action="pan-y" auto-rotate disable-zoom></model-viewer>
                         
                         
                     </div>
 
                     <div class="col-sm py-3">
-                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                        
                         <ul>
-                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
-                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+                            <li>added a detachable and autonomous pet puppet that users can physically interact with. Creat deep interactivity and physical intimacy for users to form attachments like those to a real pet. 
+                            </li>
+                            <li>The puppet is also envisioned to serve as a modular key that extends the virtual pet’s life to various platforms like smartphones, tablets, and even robotic pets. This provides endless possibilities for interactions and side products.
+                            </li>
 
                         </ul>
                              
@@ -500,16 +512,17 @@
 
                 <div class="row align-items-center">
                     <h4>Concept 2: Tree of Life</h4>
-                    <div class="col-sm">
+                    <div class="col-sm d-flex justify-content-center">
                         <model-viewer alt="Iteration 2 - Tree of Life" src="Asset/ZPet/Tree.gltf" camera-controls touch-action="pan-y" auto-rotate disable-zoom></model-viewer>
                         
                     </div>
 
                     <div class="col-sm py-3">
-                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
+                       
                         <ul>
-                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
-                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+                            <li>The structure is similar to concept one in that it still uses the paradigm of the detachable piece. The detachable piece this time is a micro-greenhouse for a small plant. The plant’s livelihood is linked to the virtual pet’s well-being, so the user has to take care of the pet to keep the plant alive.</li>
+                            <li>Augments the nurturing aspect of the game - the user is taking care of an actual living being. It adds a physical stake to taking care of the pet and plants as greenery also enhances relaxation and personal well-being.
+                            </li>
 
                         </ul>
                              
@@ -519,16 +532,16 @@
 
                 <div class="row align-items-center">
                     <h4>Concept 3: Immersive Pet</h4>
-                    <div class="col-sm">
+                    <div class="col-sm d-flex justify-content-center">
                         <model-viewer alt="Iteration 2 - Immersive Pet" src="Asset/ZPet/Immersive.gltf" camera-controls touch-action="pan-y" auto-rotate disable-zoom></model-viewer>
                         
                     </div>
 
                     <div class="col-sm py-3">
-                        <p>In the first iteration of conceptualizing, we developed the form factor that aims to be friendly, cute, and smooth visually and tactilely.</p>
                         <ul>
-                            <li>Inspired by pebbles that I used to play with as a kid, I employed mostly curvy and spherical elements.</li>
-                            <li>The dial is in place to evoke a sense of nostalgia and straightforward controls.</li>
+                            <li>A more literal interpretation of the virtual pet device -The entire game and form factor are encapsulated in a puppet. The user can use gesture commands like petting to make the pet perform functionalities.</li>
+                            <li>Developed for juvenile demographics to develop emotional bonds with the pet in an immersive manner.
+                            </li>
 
                         </ul>
                              
@@ -541,6 +554,23 @@
             <div>
                 <h3>Case Implementation</h3>
                 <p style="font-size: 1.1rem;">After conceptualizing, our team dove into the prototyping process. At this point, <strong>We have to deal with real-life problems and make compromises. </strong> At this stage, we have to find ways to encase a Raspberry Pi 3, a power bank, and a 4-inch touch screen and organize various wires. Thus, we have to think realistically to work with our hardware. Though we made compromises due to time and hardware constraints, we retained our original design goal and philosophy.	</p>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="Asset/ZPet/Assemble.jpg" alt="Assembling" class="zPet-pic">
+                        <img src="Asset/ZPet/Print.jpg" alt="3D Printing" class="zPet-pic">
+                    </div>
+                    <div class="col-sm-8">
+                        <img src="Asset/ZPet/Iterations.jpg" alt="Case Iterations" class="zPet-pic">
+                        
+                    </div>
+                    <p>For the cases, our team went through <strong>four iterations</strong> to develop the final product. The strategy is as follows:</p>
+                    <ul class="px-5">
+                        <li>Iteration 1: Prototype a case with the correct dimensions</li>
+                        <li>Iteration 2: Prototype a case with the wire ports at the approximately correct positions</li>
+                        <li>Iteration 2: Adjust wire ports' positions and developed decorative form factors like the base and patterned finish</li>
+                        <li>Iteration 4: Refined wire ports' positions for easier wire management</li>
+                    </ul>
+                </div>
             </div>
             
             
