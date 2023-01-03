@@ -35,7 +35,7 @@ body{
       padding-right:0rem !important;
       margin-left:0rem !important;
       margin-right:0rem !important;
-      position: relative !important;
+  
   }
   
 }
@@ -140,7 +140,7 @@ h1{
 }
 @media(max-width:1000px){
     .hero-div{
-        padding-top: 10% !important;
+        padding-top: 12rem !important;
     }
     .down-btn{
         display: none !important;
