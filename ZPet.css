@@ -64,8 +64,7 @@
 
   .zPet-logo{
 
-    transform: scale(1.5);
-    overflow: hidden;
+    overflow: none;
     width: 100%;
     height: auto;
 

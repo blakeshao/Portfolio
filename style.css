@@ -311,14 +311,21 @@ a{
 .container-fluid{
   padding-left: 22%;
   padding-right: 22%;
+  
 }
-
+.app-padding{
+  padding-top: 0rem;
+}
 
 @media (max-width: 1000px){
   .container-fluid{
     padding-left: 5%;
   padding-right: 5%;
 
+  
+  }
+  .app-padding{
+    padding-top: 10rem ;
   }
   
 }
