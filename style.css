@@ -1,438 +1,370 @@
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  }
-  * {
+}
+* {
   margin: 0;
-  }
-  html, body {
+}
+html,
+body {
   height: 100%;
-  }
-.logo{
-    width: 6rem;
-    padding-top: 1rem;
+}
+.logo {
+  width: 6rem;
+  padding-top: 1rem;
 }
 
-body{
+body {
   animation: fadeInAnimation ease 0.5s;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
- z-index: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 1;
 }
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1200px) {
-  .navbar{
-      padding-left:0rem !important;
-      padding-right:0rem !important;
-      margin-left:0rem !important;
-      margin-right:0rem !important;
-  
+  .navbar {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
   }
-  
 }
 
-
-
-.navbar{
+.navbar {
   padding-top: 0rem;
   padding-left: 5rem;
   padding-right: 5rem;
 
   font-size: 1.2rem;
-  font: 'Open Sans';
+  font: "Open Sans";
 
   width: 100%;
   position: fixed;
   backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.6) !important;
   z-index: 999999;
-  
 }
 
-.nav-item{
-    margin-left: 1.2rem;
+.nav-item {
+  margin-left: 1.2rem;
 }
 
-.nav-item:hover{
-    font-weight: 700;
+.nav-item:hover {
+  font-weight: 700;
 }
 
-.emphasis{
-    font-family: 'Bauhaus Modern', sans-serif;
-    font-weight: 900;
-                                                
+.emphasis {
+  font-family: "Bauhaus Modern", sans-serif;
+  font-weight: 900;
 }
-.hero{
- color:white;
- justify-content: center;
- 
- animation: fadeInAnimation ease 3s;
- animation-iteration-count: 1;
- animation-fill-mode: forwards;
- 
+.hero {
+  color: white;
+  justify-content: center;
 
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-
-
-.hero-text{
-    font-weight: 200;
-    margin-top: 1.5rem;
-    color:white;
-    font-size: 2.2rem;
+.hero-text {
+  font-weight: 200;
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 2.2rem;
 }
 
-h1{
-    font-size: 2.2rem;
+h1 {
+  font-size: 2.2rem;
 }
 
-@media(max-width:900px){
-  .content-subtitle{
+@media (max-width: 900px) {
+  .content-subtitle {
     font-size: 1rem !important;
-
   }
-    h1{
-        font-size: 1.7rem !important;
-    }
+  h1 {
+    font-size: 1.7rem !important;
+  }
 
-    h2{
-      font-size: 1.3rem !important;
-
-    }
-    
+  h2 {
+    font-size: 1.3rem !important;
+  }
 }
 
-.navbar:hover{
-    background-color: black;
-    
+.navbar:hover {
+  background-color: black;
 }
-.navbar-dark{
-    color:white;
+.navbar-dark {
+  color: white;
 }
-.down-btn{
-    bottom:0;
-    position:absolute;
-    padding-bottom: 2rem;
-    padding-left:48%;
-    padding-top: 1;
-    padding-right:52%;
-    transition: transform 200ms ease-in;
-    color:white;
+.down-btn {
+  bottom: 10;
+  position: absolute;
+  padding-bottom: 2rem;
+  padding-left: 48%;
+  padding-top: 1;
+  padding-right: 52%;
+  transition: transform 200ms ease-in;
+  color: white;
 }
 
-
-
-.sneak{
+.sneak {
   display: none;
 }
 
-.shown{
+.shown {
   display: block;
 }
-@media(max-width:1000px){
-    .hero-div{
-        padding-top: 12rem !important;
-    }
-    .down-btn{
-        display: none !important;
-    }   
-    .sneak{
-      display: block !important;
-      width: 90%;
-      margin:auto;
-
-    }
-    .shown{
-      display: none !important;
-    }
-  
-
+@media (max-width: 1000px) {
+  .hero-div {
+    padding-top: 12rem !important;
+  }
+  .down-btn {
+    display: none !important;
+  }
+  .sneak {
+    display: block !important;
+    width: 90%;
+    margin: auto;
+  }
+  .shown {
+    display: none !important;
+  }
 }
 
-.hero-div{
+.hero-div {
   margin-right: 10%;
   margin-left: 12%;
   padding-top: 15%;
 }
 
+.down-btn:hover {
+  font-weight: 800;
 
+  transform: scale(1.2);
 
-.down-btn:hover{
-    font-weight: 800;
-    
-    
-    transform: scale(1.20) translateX(5px);
-   
-    -webkit-text-stroke: 4px rgba(255, 255, 255,1);
-    color:white;
-    
+  translate: -10px;
+
+  -webkit-text-stroke: 4px rgba(255, 255, 255, 1);
+  color: white;
 }
 
-.down-btn:hover a{
-  color:white;
+.down-btn:hover a {
+  color: white;
 }
-a{
-  color:rgb(95, 95, 95);
-}
-
-
-  .works{
-    margin-top: 30%;
-    padding: 6rem;
-    
-  
-  }
-
-  .card{
-    border-color: transparent;
-    background-color: transparent;
-    margin-bottom: 1rem;
-    margin-left: -0.2rem;
-    transition: transform 200ms ease-in;
-  }
-  .card-img-top{
-    border-radius: 0.1rem;
-   
-  }
-
-  .card-container{
-    margin:2rem;
-  }
-
-  .card-container:hover .card{
-    transition: 400ms ease-in;
-    opacity: 0.8;
-    filter: blur(5px) ;
-    
-  
-  }
-
-  .card-container .card:hover{
-      transition: 400ms ease-in;
-      opacity: 1;
-      filter: blur(0px) saturate(1.1);
-      transform: scale(1.02);
-      
-    
-  }
-
-  a{
-    text-decoration: none;
-  }
-  
-  .aboutme{
-
-    padding-top: 13rem;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    
-  }
-
-  p{
-    color: white;
-    font-size: 1.4rem;
-  }
-  .space{
-    margin-bottom: 1.5rem;
-  }
-
-  .pic{
-    width: 95%;
-    padding-bottom: 3rem;
-    
-
-  }
-
-  .pic-home{
-    width: 95%;
-    padding-bottom: 3rem;
-    
-
-  
-  }
-
-  .intro{
-    font-size: 1rem;
-  }
-
-  .section-about{
-    padding-top: 5rem;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-
-  @media (max-width: 900px) {
-    .section-about{
-      padding-top: 2rem;
-    }
-    
-  }
-
-  .footer{
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-
-  }
-
-  .foot{
-    color:rgb(197, 197, 197);
-    font-weight:200;
-    font-size: 1rem;
-  }
-
-  .reg-btn{
-    color:rgb(157, 157, 157)
-    
-
-  }
- 
-  .reg-btn:hover{
-    
-    color:white;
-    
+a {
+  color: rgb(95, 95, 95);
 }
 
-.container{
+.works {
+  margin-top: 30%;
+  padding: 6rem;
+}
+
+.card {
+  border-color: transparent;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  margin-left: -0.2rem;
+  transition: transform 200ms ease-in;
+}
+.card-img-top {
+  border-radius: 0.1rem;
+}
+
+.card-container {
+  margin: 2rem;
+}
+
+.card-container:hover .card {
+  transition: 400ms ease-in;
+  opacity: 0.8;
+  filter: blur(5px);
+}
+
+.card-container .card:hover {
+  transition: 400ms ease-in;
+  opacity: 1;
+  filter: blur(0px) saturate(1.1);
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+}
+
+.aboutme {
+  padding-top: 13rem;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+p {
+  color: white;
+  font-size: 1.4rem;
+}
+.space {
+  margin-bottom: 1.5rem;
+}
+
+.pic {
+  width: 95%;
+  padding-bottom: 3rem;
+}
+
+.pic-home {
+  width: 95%;
+  padding-bottom: 3rem;
+}
+
+.intro {
+  font-size: 1rem;
+}
+
+.section-about {
+  padding-top: 5rem;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@media (max-width: 900px) {
+  .section-about {
+    padding-top: 2rem;
+  }
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.foot {
+  color: rgb(197, 197, 197);
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.reg-btn {
+  color: rgb(157, 157, 157);
+}
+
+.reg-btn:hover {
+  color: white;
+}
+
+.container {
   padding-left: 17.5%;
   padding-right: 17.5%;
 }
 
-.container-fluid{
+.container-fluid {
   padding-left: 22%;
   padding-right: 22%;
-  
 }
-.app-padding{
+.app-padding {
   padding-top: 0rem;
 }
 
-@media (max-width: 1000px){
-  .container-fluid{
+@media (max-width: 1000px) {
+  .container-fluid {
     padding-left: 5%;
-  padding-right: 5%;
-
-  
+    padding-right: 5%;
   }
-  .app-padding{
-    padding-top: 10rem ;
+  .app-padding {
+    padding-top: 10rem;
   }
-  
 }
 
-button{
+button {
   margin-bottom: 1rem;
   margin-right: 1rem;
-
 }
-
-
-
 
 @media (max-width: 1000px) {
-  .container{
+  .container {
     padding-left: 5%;
-  padding-right: 5%;
-
+    padding-right: 5%;
   }
-  
 }
 
-
-
-
-.caption{
+.caption {
   line-height: 1.4rem;
   font-size: 1.2rem;
-  color:rgb(183, 183, 183)
+  color: rgb(183, 183, 183);
 }
 
-h1{
-  color:white;
+h1 {
+  color: white;
 }
 
-.card-title{
-  font-family: 'Bauhaus Modern', sans-serif;
+.card-title {
+  font-family: "Bauhaus Modern", sans-serif;
   margin-bottom: 2rem;
 }
-.works2{
+.works2 {
   display: none;
 }
 
 @media (max-width: 900px) {
-  .works2{
+  .works2 {
     display: block;
-  
   }
-  .works{
+  .works {
     display: none;
   }
-  
 }
 
-.content-title{
+.content-title {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 5rem;
-
 }
 
-.content-subtitle{
-  font-family: 'Bauhaus Modern', sans-serif;
+.content-subtitle {
+  font-family: "Bauhaus Modern", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  color:rgb(187, 187, 187)
-
+  color: rgb(187, 187, 187);
 }
 
-
-.text-div{
+.text-div {
   padding-top: 15%;
   margin-bottom: 5rem;
 }
 
-.section-title{
-  font-family: 'Bauhaus Modern', sans-serif;
+.section-title {
+  font-family: "Bauhaus Modern", sans-serif;
   font-weight: 900;
   font-size: 3rem;
-  color:white;
-
-}
-
-h4{
-
-  font-family: 'Bauhaus Modern', sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  color:white;
-
-}
-
-ul{
   color: white;
 }
 
+h4 {
+  font-family: "Bauhaus Modern", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+}
 
+ul {
+  color: white;
+}
 
-ol{
+ol {
   color: white;
   font-size: 1.2rem;
 }
-.content{
+.content {
   margin-bottom: 3rem;
 }
-
-
-
-
-
